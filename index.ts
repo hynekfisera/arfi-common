@@ -1,4 +1,5 @@
 import { Video, VideoType } from "./types/Video";
+export { Video, VideoType } from "./types/Video";
 
 export const videos: Video[] = [
   {
