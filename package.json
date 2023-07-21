@@ -1,6 +1,6 @@
 {
   "name": "@hynekfisera/arfi-common",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Zdroje pro webové stránky Arfi.cz, VWA.cz a Arfi Discord bota",
   "main": "index.js",
   "scripts": {

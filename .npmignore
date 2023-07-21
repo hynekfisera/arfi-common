@@ -1,2 +1,4 @@
 test
 .gitignore
+index.ts
+tsconfig.tsbuildinfo
