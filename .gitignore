@@ -4,3 +4,6 @@ index.js
 tsconfig.tsbuildinfo
 types/Video.d.ts
 types/Video.js
+index.js
+test/script.d.ts
+test/script.js

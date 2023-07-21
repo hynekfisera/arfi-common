@@ -1,10 +1,10 @@
-export const VideoType = {
+export const VIDEO_TYPE = {
   Introduction: "Introduction",
   Main: "Main",
   Extra: "Extra",
 } as const;
 
-export type VideoType = (typeof VideoType)[keyof typeof VideoType];
+export type VideoType = keyof typeof VIDEO_TYPE;
 
 export type Video = {
   id: number;

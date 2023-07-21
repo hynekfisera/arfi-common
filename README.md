@@ -10,7 +10,8 @@ yarn add @hynekfisera/arfi-common
 // seznam videí série VWA
 import { videos } from "@hynekfisera/arfi-common";
 
-// datové typy
+// datové typy / enum
 import { Video } from "@hynekfisera/arfi-common";
 import { VideoType } from "@hynekfisera/arfi-common";
+import { VIDEO_TYPE } from "@hynekfisera/arfi-common";
 ```

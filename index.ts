@@ -1,10 +1,10 @@
-import { Video, VideoType } from "./types/Video";
-export { Video, VideoType } from "./types/Video";
+import { Video, VIDEO_TYPE } from "./types/Video";
+export { Video, VideoType, VIDEO_TYPE } from "./types/Video";
 
 export const videos: Video[] = [
   {
     id: 0,
-    type: VideoType.Introduction,
+    type: VIDEO_TYPE.Introduction,
     title: "#0 Úvod k sérii",
     href: "https://youtu.be/uYpxsQ9LXtU",
     released: "7.5.2022",
@@ -12,7 +12,7 @@ export const videos: Video[] = [
   },
   {
     id: 1,
-    type: VideoType.Main,
+    type: VIDEO_TYPE.Main,
     title: "#1 HTML",
     href: "https://youtu.be/dBQT3xS64CU",
     released: "5.6.2022",
@@ -21,7 +21,7 @@ export const videos: Video[] = [
   },
   {
     id: 2,
-    type: VideoType.Main,
+    type: VIDEO_TYPE.Main,
     title: "#2 CSS",
     href: "https://youtu.be/3DIPAoqpUCs",
     released: "3.7.2022",
@@ -31,7 +31,7 @@ export const videos: Video[] = [
   },
   {
     id: 3,
-    type: VideoType.Main,
+    type: VIDEO_TYPE.Main,
     title: "#3 TailwindCSS",
     href: "https://youtu.be/cTvKBiIruNI",
     released: "24.7.2022",
@@ -41,7 +41,7 @@ export const videos: Video[] = [
   },
   {
     id: 4,
-    type: VideoType.Main,
+    type: VIDEO_TYPE.Main,
     title: "#4 JavaScript",
     href: "https://youtu.be/v9S0CJjqOuU",
     released: "30.10.2022",
@@ -51,7 +51,7 @@ export const videos: Video[] = [
   },
   {
     id: 5,
-    type: VideoType.Main,
+    type: VIDEO_TYPE.Main,
     title: "#5 TypeScript",
     href: "https://youtu.be/w30tE2paIW4",
     released: "4.3.2023",
@@ -61,7 +61,7 @@ export const videos: Video[] = [
   },
   {
     id: 5.1,
-    type: VideoType.Extra,
+    type: VIDEO_TYPE.Extra,
     title: "Domény, DNS a Cloudflare",
     href: "https://youtu.be/pdx-93_JEqw",
     released: "22.6.2023",
@@ -69,7 +69,7 @@ export const videos: Video[] = [
   },
   {
     id: 5.2,
-    type: VideoType.Extra,
+    type: VIDEO_TYPE.Extra,
     title: "Git a GitHub Desktop",
     href: "https://youtu.be/137Q6u4Ct1E",
     released: "11.07.2023",
