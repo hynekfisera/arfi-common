@@ -1,6 +1,6 @@
 {
   "name": "@hynekfisera/arfi-common",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Zdroje pro webové stránky Arfi.cz, VWA.cz a Arfi Discord bota",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Hynek Fišera",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
