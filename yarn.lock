@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@hynekfisera/arfi-common@^1.5.0":
-  version "1.6.0"
-  resolved "https://registry.npmjs.org/@hynekfisera/arfi-common/-/arfi-common-1.6.0.tgz"
-  integrity sha512-hRSjinY94NVpduz++beiZsvdAeuvm0BF7qssSGMBE+4Ak9dsmoZqwIHx0lnQITd7bHjioZ1+dzKKB983uU5k+g==
+"@hynekfisera/arfi-common@^1.5.0", "@hynekfisera/arfi-common@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.npmjs.org/@hynekfisera/arfi-common/-/arfi-common-1.7.0.tgz"
+  integrity sha512-nn9/zb1K/Bbxj2PDZfZWiYsOtLcu6jCrT8+KqvKrKE/z7q4EwgtstsOxYRfzaQL1x8CE228T4u7Q5CY84j6XIA==
   dependencies:
     "@hynekfisera/arfi-common" "^1.5.0"
 

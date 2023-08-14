@@ -1,14 +1,14 @@
 import { Video, VIDEO_TYPE } from "./types/Video";
 export { Video, VideoType, VIDEO_TYPE } from "./types/Video";
-import Thumbnail0 from "/thumbnails/0.png";
-import Thumbnail1 from "/thumbnails/1.png";
-import Thumbnail2 from "/thumbnails/2.png";
-import Thumbnail3 from "/thumbnails/3.png";
-import Thumbnail4 from "/thumbnails/4.png";
-import Thumbnail5 from "/thumbnails/5.png";
-import Thumbnail5_1 from "/thumbnails/5.1.png";
-import Thumbnail5_2 from "/thumbnails/5.2.png";
-//import Thumbnail6 from "/thumbnails/6.png";
+import Thumbnail0 from "./thumbnails/0.png";
+import Thumbnail1 from "./thumbnails/1.png";
+import Thumbnail2 from "./thumbnails/2.png";
+import Thumbnail3 from "./thumbnails/3.png";
+import Thumbnail4 from "./thumbnails/4.png";
+import Thumbnail5 from "./thumbnails/5.png";
+import Thumbnail5_1 from "./thumbnails/5.1.png";
+import Thumbnail5_2 from "./thumbnails/5.2.png";
+//import Thumbnail6 from "./thumbnails/6.png";
 
 export const videos: Video[] = [
   {
