@@ -8,7 +8,7 @@ import Thumbnail4 from "./thumbnails/4.png";
 import Thumbnail5 from "./thumbnails/5.png";
 import Thumbnail5_1 from "./thumbnails/5.1.png";
 import Thumbnail5_2 from "./thumbnails/5.2.png";
-//import Thumbnail6 from "./thumbnails/6.png";
+import Thumbnail6 from "./thumbnails/6.png";
 
 export const videos: Video[] = [
   {
@@ -91,5 +91,16 @@ export const videos: Video[] = [
     released: "11.07.2023",
     content: ["Co je Git?", "Git x GitHub", "Základní pojmy", "Vytvoření repozitáře", "Přidávání změn", "Ukázka pull requestu"],
     thumbnail: Thumbnail5_2,
+  },
+  {
+    id: 6,
+    type: VIDEO_TYPE.Main,
+    title: "#6 React",
+    href: "#",
+    released: "?",
+    content: ["Co je React?", "Založení projektu", "Základní složky a soubory", "React komponenty", "HTML x JSX", "useState", "Výpis dat a interakce", "Umístění na internet", "Vlastní doména u projektu"],
+    previous: 5,
+    prerequisites: [1, 4, 5, 5.1, 5.2],
+    thumbnail: Thumbnail6,
   },
 ];
