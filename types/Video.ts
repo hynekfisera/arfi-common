@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export const VIDEO_TYPE = {
   Introduction: "Introduction",
   Main: "Main",
@@ -15,4 +17,5 @@ export type Video = {
   content?: Array<string>;
   previous?: number;
   prerequisites?: Array<number>;
+  thumbnail: StaticImageData;
 };

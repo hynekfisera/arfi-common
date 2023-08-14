@@ -1,5 +1,14 @@
 import { Video, VIDEO_TYPE } from "./types/Video";
 export { Video, VideoType, VIDEO_TYPE } from "./types/Video";
+import Thumbnail0 from "/thumbnails/0.png";
+import Thumbnail1 from "/thumbnails/1.png";
+import Thumbnail2 from "/thumbnails/2.png";
+import Thumbnail3 from "/thumbnails/3.png";
+import Thumbnail4 from "/thumbnails/4.png";
+import Thumbnail5 from "/thumbnails/5.png";
+import Thumbnail5_1 from "/thumbnails/5.1.png";
+import Thumbnail5_2 from "/thumbnails/5.2.png";
+//import Thumbnail6 from "/thumbnails/6.png";
 
 export const videos: Video[] = [
   {
@@ -9,6 +18,7 @@ export const videos: Video[] = [
     href: "https://youtu.be/uYpxsQ9LXtU",
     released: "7.5.2022",
     content: ["Pro koho je série určena?", "Co se tu naučíte?"],
+    thumbnail: Thumbnail0,
   },
   {
     id: 1,
@@ -18,6 +28,7 @@ export const videos: Video[] = [
     released: "5.6.2022",
     content: ["Jak funguje web?", "Části HTML dokumentu", "HTML syntax", "Nejpoužívanější HTML tagy"],
     previous: 0,
+    thumbnail: Thumbnail1,
   },
   {
     id: 2,
@@ -28,6 +39,7 @@ export const videos: Video[] = [
     content: ["CSS syntax", "Kde a jak se CSS používá", "CSS selektory", "Nejpoužívanější CSS styly"],
     previous: 1,
     prerequisites: [1],
+    thumbnail: Thumbnail2,
   },
   {
     id: 3,
@@ -38,6 +50,7 @@ export const videos: Video[] = [
     content: ["Co je TailwindCSS?", "Konfigurace přes NPM", "Princip stylování", "Darkmode", "Responzivita"],
     previous: 2,
     prerequisites: [2],
+    thumbnail: Thumbnail3,
   },
   {
     id: 4,
@@ -48,6 +61,7 @@ export const videos: Video[] = [
     content: ["Co je JavaScript?", "Syntax JavaScriptu", "Výpis do konzole", "Využití na webu"],
     previous: 3,
     prerequisites: [1],
+    thumbnail: Thumbnail4,
   },
   {
     id: 5,
@@ -58,6 +72,7 @@ export const videos: Video[] = [
     content: ["Co je TypeScript?", "Instalace & kompilace do JS", "Syntax TypeScriptu", "Využití v projektu"],
     previous: 4,
     prerequisites: [4],
+    thumbnail: Thumbnail5,
   },
   {
     id: 5.1,
@@ -66,6 +81,7 @@ export const videos: Video[] = [
     href: "https://youtu.be/pdx-93_JEqw",
     released: "22.6.2023",
     content: ["Co je doména?", "Co je DNS?", "DNS záznamy", "Registrace domény", "Co je Cloudflare?"],
+    thumbnail: Thumbnail5_1,
   },
   {
     id: 5.2,
@@ -74,5 +90,6 @@ export const videos: Video[] = [
     href: "https://youtu.be/137Q6u4Ct1E",
     released: "11.07.2023",
     content: ["Co je Git?", "Git x GitHub", "Základní pojmy", "Vytvoření repozitáře", "Přidávání změn", "Ukázka pull requestu"],
+    thumbnail: Thumbnail5_2,
   },
 ];
