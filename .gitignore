@@ -7,3 +7,4 @@ types/Video.js
 index.js
 test/script.d.ts
 test/script.js
+.DS_Store

@@ -9,6 +9,7 @@ import Thumbnail5 from "./thumbnails/5.png";
 import Thumbnail5_1 from "./thumbnails/5.1.png";
 import Thumbnail5_2 from "./thumbnails/5.2.png";
 import Thumbnail6 from "./thumbnails/6.png";
+import Thumbnail6_1 from "./thumbnails/6.1.png";
 
 export const videos: Video[] = [
   {
@@ -102,5 +103,14 @@ export const videos: Video[] = [
     previous: 5,
     prerequisites: [1, 4, 5, 5.1, 5.2],
     thumbnail: Thumbnail6,
+  },
+  {
+    id: 6.1,
+    type: VIDEO_TYPE.Extra,
+    title: "API & HTTP requesty",
+    href: "https://youtu.be/Tvo7THbglgs",
+    released: "28.10.2023",
+    content: ["Co je to API?", "Client-side x Server-side", "Jak fungují HTTP requesty", "Co je to API endpoint?", "API endpoint v Next.js", "Jak odeslat request"],
+    thumbnail: Thumbnail6_1,
   },
 ];
