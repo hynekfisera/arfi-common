@@ -10,6 +10,7 @@ import Thumbnail5_1 from "./thumbnails/5.1.png";
 import Thumbnail5_2 from "./thumbnails/5.2.png";
 import Thumbnail6 from "./thumbnails/6.png";
 import Thumbnail6_1 from "./thumbnails/6.1.png";
+import Thumbnail7 from "./thumbnails/7.png";
 
 export const videos: Video[] = [
   {
@@ -112,5 +113,16 @@ export const videos: Video[] = [
     released: "28.10.2023",
     content: ["Co je to API?", "Client-side x Server-side", "Jak fungují HTTP requesty", "Co je to API endpoint?", "API endpoint v Next.js", "Jak odeslat request"],
     thumbnail: Thumbnail6_1,
+  },
+  {
+    id: 7,
+    type: VIDEO_TYPE.Main,
+    title: "#7 Next.js",
+    href: "https://youtu.be/_wT0iV_Ag6w",
+    released: "24.12.2023",
+    content: ["Proč si vybrat právě Next.js?", "Routing", "API endpointy", "Server-Side Rendering (SSR)", "Static Site Generation (SSG)", "Incremental Static Regeneration (ISR)", "next/font", "next/image"],
+    previous: 6,
+    prerequisites: [1, 4, 5, 6, 6.1],
+    thumbnail: Thumbnail7,
   },
 ];
